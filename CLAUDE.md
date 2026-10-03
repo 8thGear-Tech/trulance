@@ -2,7 +2,7 @@
 
 # Trulance website — guide for Claude Code
 
-Marketing site for **Trulance**, the community for freelance techies (designers, software engineers, technical writers, digital marketers). Built with Next.js 16 (App Router), React 19, Tailwind CSS v4 and TypeScript. Deployed on Vercel.
+Marketing site for **Trulance**, the community for freelance techies (designers, software engineers, data analysts, technical writers, digital marketers). Built with Next.js 16 (App Router), React 19, Tailwind CSS v4 and TypeScript. Deployed on Vercel.
 
 Read `docs/BUILD_BRIEF.md` for the product brief and `docs/BRAND.md` for brand rules before changing UI.
 

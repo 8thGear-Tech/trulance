@@ -6,7 +6,7 @@ export const site = {
   url: "https://trulance.io",
   tagline: "The community for freelance techies.",
   description:
-    "Trulance connects businesses with vetted freelance designers, software engineers, technical writers and digital marketers, and gives freelancers a community to grow in.",
+    "Trulance connects businesses with vetted freelance designers, software engineers, data analysts, technical writers and digital marketers, and gives freelancers a community to grow in.",
   email: "info@trulance.io",
   phone: "+234 809 550 9979",
   phoneHref: "tel:+2348095509979",
@@ -45,6 +45,13 @@ export const disciplines = [
     skills: ["Web apps", "Mobile apps", "APIs & backends", "Cloud & DevOps"],
   },
   {
+    slug: "data",
+    title: "Data analytics",
+    summary:
+      "Data analysts who turn raw numbers into dashboards, reports and decisions you can act on.",
+    skills: ["Dashboards & BI", "SQL & Python", "Data cleaning", "Reporting & insights"],
+  },
+  {
     slug: "writing",
     title: "Technical writing",
     summary:
@@ -71,7 +78,7 @@ export const engagementModels = [
   },
   {
     title: "Managed squad",
-    body: "A cross-functional team (design, engineering, writing, marketing) coordinated by Trulance for larger initiatives.",
+    body: "A cross-functional team (design, engineering, data, writing, marketing) coordinated by Trulance for larger initiatives.",
   },
 ] as const;
 

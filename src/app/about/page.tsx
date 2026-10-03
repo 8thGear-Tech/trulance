@@ -25,7 +25,7 @@ export default function AboutPage() {
             <Dot />
           </>
         }
-        intro="Trulance brings together designers, software engineers, technical writers and digital marketers who freelance, and connects them with businesses that need dependable talent."
+        intro="Trulance brings together designers, software engineers, data analysts, technical writers and digital marketers who freelance, and connects them with businesses that need dependable talent."
       />
 
       <section className="bg-white py-20 sm:py-28">
