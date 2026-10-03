@@ -12,7 +12,7 @@ export type FormState = {
 const contactSchema = z.object({
   name: z.string().trim().min(2, "Please enter your name."),
   email: z.email("Please enter a valid email address."),
-  topic: z.enum(["general", "hire", "join", "partnership"]),
+  topic: z.enum(["general", "project", "join", "partnership"]),
   message: z.string().trim().min(10, "Please add a little more detail (10+ characters).").max(5000),
 });
 
@@ -21,7 +21,7 @@ const quoteSchema = z.object({
   email: z.email("Please enter a valid email address."),
   company: z.string().trim().max(200).optional(),
   phone: z.string().trim().max(40).optional(),
-  plan: z.enum(["starter", "growth", "squad", "not-sure"]),
+  plan: z.enum(["go-digital", "web-only", "business-pro", "custom-platform", "not-sure"]),
   services: z.array(z.string()).min(1, "Choose at least one service."),
   budget: z.string().trim().min(1, "Please choose a budget range."),
   timeline: z.string().trim().min(1, "Please choose a timeline."),

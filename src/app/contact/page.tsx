@@ -22,7 +22,7 @@ export default async function ContactPage({ searchParams }: PageProps<"/contact"
             <Dot />
           </>
         }
-        intro="Questions about hiring, joining the community or partnering with us? Send a message and the team will get back to you."
+        intro="Questions about a tech project, joining as a freelancer or partnering with us? Send a message and the team will get back to you."
       />
 
       <section className="bg-paper pb-24 pt-12 sm:pt-16">

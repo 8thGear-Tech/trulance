@@ -1,8 +1,8 @@
 import { ButtonLink, Container, Dot } from "./ui";
 
 export function CtaBand({
-  title = "Ready to build with vetted tech talent",
-  body = "Tell us what you need and we'll come back with a matched freelancer or team and a clear quote.",
+  title = "Ready to get your tech project delivered",
+  body = "Tell us what you need and we'll come back with a clear scope, a quote and a delivery plan, quality-checked at every step.",
 }: {
   title?: string;
   body?: string;

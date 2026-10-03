@@ -8,16 +8,18 @@ import { Button } from "./ui";
 
 const planOptions = [
   { value: "not-sure", label: "Not sure yet" },
-  { value: "starter", label: "Starter (single project)" },
-  { value: "growth", label: "Growth (dedicated talent)" },
-  { value: "squad", label: "Squad (managed team)" },
+  { value: "go-digital", label: "Go Digital (₦150k)" },
+  { value: "web-only", label: "Web Only (₦200k–250k)" },
+  { value: "business-pro", label: "Business Pro (from ₦500k)" },
+  { value: "custom-platform", label: "Custom Platform (from ₦1m)" },
 ];
 
 const budgets = [
   { value: "", label: "Select a range" },
-  { value: "[BUDGET RANGE 1]", label: "[BUDGET RANGE 1]" },
-  { value: "[BUDGET RANGE 2]", label: "[BUDGET RANGE 2]" },
-  { value: "[BUDGET RANGE 3]", label: "[BUDGET RANGE 3]" },
+  { value: "Under ₦200,000", label: "Under ₦200,000" },
+  { value: "₦200,000 – ₦500,000", label: "₦200,000 – ₦500,000" },
+  { value: "₦500,000 – ₦1,000,000", label: "₦500,000 – ₦1,000,000" },
+  { value: "Above ₦1,000,000", label: "Above ₦1,000,000" },
   { value: "Not sure", label: "Not sure yet" },
 ];
 

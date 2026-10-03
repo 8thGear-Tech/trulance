@@ -5,7 +5,7 @@ import { disciplines, engagementModels } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "What we do",
-  description: "Design, software engineering, data analytics, technical writing and digital marketing talent, delivered the way you need it.",
+  description: "Design, software engineering, data analytics, technical writing and digital marketing projects, delivered by vetted freelancers and quality-checked by Trulance.",
 };
 
 export default function ServicesPage() {
@@ -15,11 +15,11 @@ export default function ServicesPage() {
         eyebrow="What we do"
         title={
           <>
-            The tech skills your business needs
+            Tech projects we deliver
             <Dot />
           </>
         }
-        intro="Whether it's a one-off project or an ongoing team, Trulance matches you with vetted freelancers across five core disciplines."
+        intro="Whether it's a one-off project or ongoing work, Trulance delivers across five core disciplines: vetted freelancers do the work, and our team checks quality before hand-off."
       />
 
       <section className="bg-white py-20 sm:py-28">

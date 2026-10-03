@@ -5,7 +5,7 @@ import { faqs, freelancerPlan, plans } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Simple, transparent pricing for hiring vetted freelance tech talent through Trulance.",
+  description: "Trulance pricing in Naira: Go Digital from ₦150k, Web Only ₦200k–250k, Business Pro from ₦500k and Custom Platform from ₦1m.",
 };
 
 export default function PricingPage() {
@@ -19,29 +19,29 @@ export default function PricingPage() {
             <Dot />
           </>
         }
-        intro="Choose the model that fits your work. Every engagement starts with a free consultation and a written quote."
+        intro="Simple packages to get your business online, and tailored quotes for bigger builds. All prices are in Naira."
       />
 
       <section className="bg-white py-20 sm:py-28">
         <Container>
-          <ul className="grid gap-6 lg:grid-cols-3">
+          <ul className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {plans.map((p) => (
               <li
-                key={p.name}
-                className={`flex flex-col rounded-3xl p-8 sm:p-10 ${p.featured ? "bg-ink text-white" : "border border-line bg-paper"}`}
+                key={p.id}
+                className={`flex flex-col rounded-3xl p-8 ${p.featured ? "bg-ink text-white" : "border border-line bg-paper"}`}
               >
-                <div className="flex items-center justify-between">
-                  <h2 className="text-2xl font-extrabold tracking-tightest">{p.name}</h2>
-                  {p.featured ? (
-                    <span className="rounded-full bg-signal px-3 py-1 font-mono text-xs font-medium uppercase text-ink">Popular</span>
+                <div className={`mb-4 h-7 items-start ${p.badge ? "flex" : "hidden xl:flex"}`}>
+                  {p.badge ? (
+                    <span className="whitespace-nowrap rounded-full bg-signal px-3 py-1 font-mono text-[11px] font-medium uppercase text-ink">
+                      {p.badge}
+                    </span>
                   ) : null}
                 </div>
-                <p className={`mt-3 ${p.featured ? "text-mist" : "text-slate"}`}>{p.description}</p>
-                <p className="mt-8">
-                  <span className="text-4xl font-extrabold tracking-tightest">{p.price}</span>{" "}
-                  <span className={p.featured ? "text-mist" : "text-slate"}>{p.cadence}</span>
-                </p>
-                <ul className="mt-8 flex-1 space-y-3">
+                <h2 className="text-2xl font-extrabold tracking-tightest">{p.name}</h2>
+                <p className={`mt-3 xl:min-h-[6rem] ${p.featured ? "text-mist" : "text-slate"}`}>{p.description}</p>
+                <p className="mt-6 whitespace-nowrap text-3xl font-extrabold tracking-tightest">{p.price}</p>
+                <p className={`mt-1 text-sm xl:min-h-[2.5rem] ${p.featured ? "text-mist" : "text-slate"}`}>{p.cadence}</p>
+                <ul className="mt-6 flex-1 space-y-3">
                   {p.features.map((f) => (
                     <li key={f} className="flex gap-3">
                       <CheckIcon className={p.featured ? "text-signal" : "text-ember"} />
@@ -60,9 +60,8 @@ export default function PricingPage() {
             <div>
               <p className="font-mono text-sm font-medium uppercase tracking-wider">For freelancers</p>
               <h2 className="mt-2 text-2xl font-extrabold tracking-tightest">{freelancerPlan.name}</h2>
-              <p className="mt-2">
-                <span className="text-3xl font-extrabold">{freelancerPlan.price}</span> {freelancerPlan.cadence}
-              </p>
+              <p className="mt-2 text-3xl font-extrabold">{freelancerPlan.price}</p>
+              <p className="text-sm">{freelancerPlan.cadence}</p>
             </div>
             <ul className="grid gap-3 sm:grid-cols-2">
               {freelancerPlan.features.map((f) => (
