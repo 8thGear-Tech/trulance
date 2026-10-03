@@ -2,7 +2,7 @@
 
 ## Product
 
-Trulance is a Lagos-based community for freelance techies: designers, software engineers, technical writers and digital marketers. It serves two audiences:
+Trulance is a Lagos-based community for freelance techies: designers, software engineers, data analysts, technical writers and digital marketers. It serves two audiences:
 
 1. **Businesses** that need vetted, reliable freelance tech talent (primary conversion: *Request a quote*).
 2. **Freelancers** who want quality client work and a peer community (conversion: *Join* via the contact form with `?topic=join`).
@@ -13,9 +13,9 @@ Brand personality: **trustworthy & professional, bold & energetic.**
 
 | Route | Purpose | Key sections |
 |---|---|---|
-| `/` | Landing | Hero + dual CTA, four disciplines, how it works (3 steps), businesses vs freelancers, CTA band |
+| `/` | Landing | Hero + dual CTA, five disciplines, how it works (3 steps), businesses vs freelancers, CTA band |
 | `/about` | About us | Story, mission & vision, values |
-| `/services` | What we do | Four disciplines with skills, engagement models (project, dedicated, squad) |
+| `/services` | What we do | Five disciplines with skills, engagement models (project, dedicated, squad) |
 | `/pricing` | Service pricing | 3 client plans (Starter, Growth, Squad), freelancer membership, FAQs |
 | `/contact` | Contact us | Email/phone/address, contact form with topic (`?topic=hire|join|partnership`) |
 | `/quote` | Request a quote | Detailed quote form (services, plan, budget, timeline, details); plan prefill via `?plan=starter|growth|squad` |

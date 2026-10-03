@@ -25,7 +25,7 @@ export default function AboutPage() {
             <Dot />
           </>
         }
-        intro="Trulance brings together designers, software engineers, technical writers and digital marketers who freelance, and connects them with businesses that need dependable talent."
+        intro="Trulance brings together designers, software engineers, data analysts, technical writers and digital marketers who freelance, and connects them with businesses that need dependable talent."
       />
 
       <section className="bg-white py-20 sm:py-28">
@@ -35,9 +35,14 @@ export default function AboutPage() {
             <h2 className="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">Why we started Trulance</h2>
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-slate">
-            <p>[Write two or three sentences on the problem Trulance saw: e.g. businesses struggling to find reliable tech talent, and talented freelancers working in isolation.]</p>
-            <p>[Describe how Trulance answers it: a vetted community, fair engagement models, and support on both sides.]</p>
-            <p>[Optional: founding year, who&apos;s behind it, and any partners or backers.]</p>
+            <p>
+              Businesses need good tech talent, but finding someone reliable is slow and risky. Meanwhile, skilled freelancers
+              often work alone, chasing gigs with no one to learn from or vouch for them.
+            </p>
+            <p>
+              Trulance closes that gap. We build a vetted community of freelance techies, match them with businesses through
+              clear, fair ways of working, and support both sides until the work ships.
+            </p>
           </div>
         </Container>
       </section>
@@ -46,11 +51,11 @@ export default function AboutPage() {
         <Container className="grid gap-6 md:grid-cols-2">
           <div className="rounded-3xl bg-ink p-8 text-white sm:p-12">
             <p className="font-mono text-sm uppercase tracking-wider text-signal">Mission</p>
-            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">[One-sentence mission statement.]</p>
+            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">To connect businesses with trusted freelance tech talent, and help every freelancer in our community do their best work.</p>
           </div>
           <div className="rounded-3xl bg-white p-8 sm:p-12">
             <Eyebrow>Vision</Eyebrow>
-            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">[One-sentence vision statement.]</p>
+            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">A world where great tech talent is found by reputation, not by luck, starting from Lagos.</p>
           </div>
         </Container>
       </section>

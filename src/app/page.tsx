@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-paper">
         <Container className="grid items-center gap-12 py-20 sm:py-28 lg:grid-cols-[1.25fr_1fr]">
           <div>
-            <Eyebrow>Designers · Engineers · Writers · Marketers</Eyebrow>
+            <Eyebrow>Designers · Engineers · Analysts · Writers · Marketers</Eyebrow>
             <h1 className="mt-5 text-5xl font-extrabold leading-[1.02] tracking-tightest sm:text-7xl">
               Vetted tech talent, ready when you are
               <Dot />
@@ -62,7 +62,7 @@ export default function Home() {
             <div>
               <Eyebrow>What we do</Eyebrow>
               <h2 className="mt-4 max-w-2xl text-3xl font-extrabold leading-tight tracking-tightest sm:text-5xl">
-                Four disciplines, one trusted community
+                Five disciplines, one trusted community
                 <Dot />
               </h2>
             </div>
@@ -71,7 +71,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {disciplines.map((d, i) => (
               <li key={d.slug} className="flex flex-col rounded-2xl border border-line bg-paper p-6">
                 <span className="font-mono text-sm text-ember">0{i + 1}</span>
