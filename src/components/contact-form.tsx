@@ -7,7 +7,7 @@ import { Button } from "./ui";
 
 const topics = [
   { value: "general", label: "General enquiry" },
-  { value: "hire", label: "I want to hire talent" },
+  { value: "project", label: "I have a tech project" },
   { value: "join", label: "I want to join as a freelancer" },
   { value: "partnership", label: "Partnership" },
 ];

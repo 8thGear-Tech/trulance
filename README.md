@@ -1,6 +1,6 @@
 # Trulance website
 
-Marketing site for Trulance — the community for freelance techies. Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript.
+Marketing site for Trulance — tech and IT projects, delivered by vetted freelancers and quality-checked by Trulance. Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript.
 
 ## Run locally
 

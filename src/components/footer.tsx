@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
-import { Logo } from "./logo";
+import { AnimatedFooterLogo } from "./animated-logo";
 import { Container } from "./ui";
 
 export function Footer() {
@@ -9,8 +9,8 @@ export function Footer() {
     <footer className="bg-ink text-white">
       <Container className="grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
-          <Logo variant="reversed" className="h-7 w-auto" />
-          <p className="mt-5 max-w-sm text-mist">{site.tagline}</p>
+          <AnimatedFooterLogo className="-ml-[31px] -my-4 h-auto w-56" />
+          <p className="mt-3 max-w-sm text-mist">{site.tagline}</p>
         </div>
 
         <div>

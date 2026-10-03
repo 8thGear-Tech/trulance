@@ -6,8 +6,8 @@ import { disciplines } from "@/lib/site";
 
 const steps = [
   { n: "01", title: "Share your brief", body: "Tell us what you're building, your timeline and budget. A short call or the quote form is enough." },
-  { n: "02", title: "Get matched", body: "We shortlist vetted freelancers from the Trulance community whose skills fit the work." },
-  { n: "03", title: "Ship together", body: "Work directly with your talent, with Trulance on hand for milestones, support and payments." },
+  { n: "02", title: "We assign the team", body: "We scope the work and assign vetted freelancers from the Trulance community whose skills fit it." },
+  { n: "03", title: "We check, then deliver", body: "Every deliverable is reviewed by Trulance for quality before it's handed over to you." },
 ];
 
 export default function Home() {
@@ -17,17 +17,17 @@ export default function Home() {
       <section className="relative overflow-hidden bg-paper">
         <Container className="grid items-center gap-12 py-20 sm:py-28 lg:grid-cols-[1.25fr_1fr]">
           <div>
-            <Eyebrow>Designers · Engineers · Analysts · Writers · Marketers</Eyebrow>
+            <Eyebrow>Design · Engineering · Data · Writing · Marketing</Eyebrow>
             <h1 className="mt-5 text-5xl font-extrabold leading-[1.02] tracking-tightest sm:text-7xl">
-              Vetted tech talent, ready when you are
+              Tech projects, delivered
               <Dot />
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate sm:text-xl">
-              Trulance is the community for freelance techies. We match businesses with skilled, reliable freelancers and give
-              freelancers the network to do their best work.
+              Trulance delivers tech and IT projects for businesses. Vetted freelancers from our community do the work, and our
+              team quality-checks every deliverable before it reaches you.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <ButtonLink href="/quote">Hire talent</ButtonLink>
+              <ButtonLink href="/quote">Start a project</ButtonLink>
               <ButtonLink href="/contact?topic=join" variant="ghost">
                 Join as a freelancer
               </ButtonLink>
@@ -44,12 +44,12 @@ export default function Home() {
               className="h-full w-full"
             />
             <div className="absolute bottom-10 left-0 sm:-left-6 rounded-2xl bg-white px-5 py-4 shadow-lg shadow-ink/10">
-              <p className="font-mono text-xs uppercase tracking-wider text-slate">Matched</p>
-              <p className="mt-1 text-lg font-bold">Product designer</p>
+              <p className="font-mono text-xs uppercase tracking-wider text-slate">QA passed</p>
+              <p className="mt-1 text-lg font-bold">Brand identity</p>
             </div>
             <div className="absolute right-0 top-10 sm:-right-4 rounded-2xl bg-white px-5 py-4 shadow-lg shadow-ink/10">
-              <p className="font-mono text-xs uppercase tracking-wider text-slate">Available</p>
-              <p className="mt-1 text-lg font-bold">Backend engineer</p>
+              <p className="font-mono text-xs uppercase tracking-wider text-slate">In delivery</p>
+              <p className="mt-1 text-lg font-bold">Mobile app MVP</p>
             </div>
           </div>
         </Container>
@@ -62,7 +62,7 @@ export default function Home() {
             <div>
               <Eyebrow>What we do</Eyebrow>
               <h2 className="mt-4 max-w-2xl text-3xl font-extrabold leading-tight tracking-tightest sm:text-5xl">
-                Five disciplines, one trusted community
+                Five disciplines, one accountable team
                 <Dot />
               </h2>
             </div>
@@ -88,7 +88,7 @@ export default function Home() {
         <Container>
           <Eyebrow tone="dark">How it works</Eyebrow>
           <h2 className="mt-4 max-w-2xl text-3xl font-extrabold leading-tight tracking-tightest sm:text-5xl">
-            From brief to shipped work in three steps
+            From brief to quality-checked delivery in three steps
             <Dot />
           </h2>
           <ol className="mt-14 grid gap-10 md:grid-cols-3">
@@ -108,10 +108,10 @@ export default function Home() {
         <Container className="grid gap-6 md:grid-cols-2">
           <div className="rounded-3xl bg-white p-8 sm:p-12">
             <Eyebrow>For businesses</Eyebrow>
-            <h2 className="mt-4 text-3xl font-extrabold tracking-tightest">Hire with confidence</h2>
+            <h2 className="mt-4 text-3xl font-extrabold tracking-tightest">Delegate with confidence</h2>
             <p className="mt-4 text-slate">
-              Every freelancer is vetted before they join. Get clear pricing, defined milestones and a team that stands behind the
-              work.
+              Every freelancer is vetted and every deliverable is quality-checked before hand-off. Clear pricing, defined
+              milestones and one team accountable for the result.
             </p>
             <ButtonLink href="/pricing" variant="secondary" className="mt-8">
               See pricing
@@ -121,7 +121,7 @@ export default function Home() {
             <p className="font-mono text-sm font-medium uppercase tracking-wider text-ink">For freelancers</p>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tightest">Grow with your people</h2>
             <p className="mt-4 text-ink-800">
-              Find quality client work, learn from peers and build a reputation in a community made for freelance techies.
+              Work on real client projects, learn from peers and build a reputation in a community made for freelance techies.
             </p>
             <ButtonLink href="/contact?topic=join" variant="secondary" className="mt-8">
               Join the community

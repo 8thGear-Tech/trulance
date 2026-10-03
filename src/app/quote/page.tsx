@@ -4,13 +4,13 @@ import { CheckIcon, Container, Dot, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Request a quote",
-  description: "Tell us about your project and get a matched freelancer or team with a written quote.",
+  description: "Tell us about your tech project and get a written quote with a delivery plan.",
 };
 
 const next = [
   "We review your brief and may ask a few follow-up questions.",
-  "We shortlist vetted freelancers who fit the work.",
-  "You receive a written quote and proposed match.",
+  "We scope the work and plan the team who'll deliver it.",
+  "You receive a written quote with milestones and quality checkpoints.",
 ];
 
 export default async function QuotePage({ searchParams }: PageProps<"/quote">) {
@@ -26,7 +26,7 @@ export default async function QuotePage({ searchParams }: PageProps<"/quote">) {
             <Dot />
           </>
         }
-        intro="A few details help us match the right talent and give you an accurate quote. It takes about three minutes."
+        intro="A few details help us scope your project and give you an accurate quote. It takes about three minutes."
       />
 
       <section className="bg-paper pb-24 pt-12 sm:pt-16">

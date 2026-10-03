@@ -2,10 +2,14 @@
 
 ## Product
 
-Trulance is a Lagos-based community for freelance techies: designers, software engineers, data analysts, technical writers and digital marketers. It serves two audiences:
+Trulance is a Lagos-based company that **executes tech and IT projects** for businesses. The work is done by a vetted community of freelance techies (designers, software engineers, data analysts, technical writers and digital marketers), and Trulance provides quality assurance on every deliverable before it goes back to the client.
 
-1. **Businesses** that need vetted, reliable freelance tech talent (primary conversion: *Request a quote*).
-2. **Freelancers** who want quality client work and a peer community (conversion: *Join* via the contact form with `?topic=join`).
+**Trulance does not help people hire talent** — no recruitment, placement or "dedicated talent" offers. That is a separate company's business.
+
+It serves two audiences:
+
+1. **Businesses** with tech/IT projects to get done (primary conversion: *Request a quote* / *Start a project*).
+2. **Freelancers** who want quality client project work and a peer community (conversion: *Join* via the contact form with `?topic=join`).
 
 Brand personality: **trustworthy & professional, bold & energetic.**
 
@@ -15,10 +19,10 @@ Brand personality: **trustworthy & professional, bold & energetic.**
 |---|---|---|
 | `/` | Landing | Hero + dual CTA, five disciplines, how it works (3 steps), businesses vs freelancers, CTA band |
 | `/about` | About us | Story, mission & vision, values |
-| `/services` | What we do | Five disciplines with skills, engagement models (project, dedicated, squad) |
-| `/pricing` | Service pricing | 3 client plans (Starter, Growth, Squad), freelancer membership, FAQs |
-| `/contact` | Contact us | Email/phone/address, contact form with topic (`?topic=hire|join|partnership`) |
-| `/quote` | Request a quote | Detailed quote form (services, plan, budget, timeline, details); plan prefill via `?plan=starter|growth|squad` |
+| `/services` | What we do | Five disciplines with skills, engagement models (project, monthly retainer, managed squad) |
+| `/pricing` | Service pricing | 4 plans (Go Digital ₦150k, Web Only ₦200k–250k, Business Pro from ₦500k, Custom Platform from ₦1m), paid freelancer membership (price TBA), FAQs |
+| `/contact` | Contact us | Email/phone/address, contact form with topic (`?topic=project|join|partnership`) |
+| `/quote` | Request a quote | Detailed quote form (services, plan, budget, timeline, details); plan prefill via `?plan=go-digital|web-only|business-pro|custom-platform` |
 
 ## Contact details
 
@@ -33,10 +37,7 @@ Both forms are Server Actions (`src/app/actions.ts`) validated with zod, protect
 
 ## Content still to provide (search for `[`)
 
-- Prices for Starter, Growth and freelancer membership; revision rounds
-- Budget ranges in the quote form (`src/components/quote-form.tsx`)
-- About page story, mission, vision
-- FAQ answers (vetting, matching time, payments, replacement policy)
+- Freelancer membership price (TBA)
 - Response time in form success messages (`[N] working days`)
 - Social media URLs (`src/lib/site.ts`)
 

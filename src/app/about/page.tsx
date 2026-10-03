@@ -4,11 +4,11 @@ import { Container, Dot, Eyebrow, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "About us",
-  description: "Why Trulance exists and the values behind the community for freelance techies.",
+  description: "Why Trulance exists and how we deliver tech projects with vetted freelancers and built-in quality assurance.",
 };
 
 const values = [
-  { title: "Trust first", body: "We vet every member and stand behind the work. Reliability is the product." },
+  { title: "Trust first", body: "We vet every freelancer and quality-check every deliverable. Reliability is the product." },
   { title: "Community over marketplace", body: "Freelancers grow faster together: shared knowledge, mentorship and referrals." },
   { title: "Clear and fair", body: "Transparent pricing for clients and fair pay for freelancers. No surprises." },
   { title: "Built for Africa, ready for the world", body: "Lagos-based, serving clients and talent across the continent and beyond." },
@@ -21,11 +21,11 @@ export default function AboutPage() {
         eyebrow="About us"
         title={
           <>
-            A home for freelance techies
+            Tech delivery you can trust
             <Dot />
           </>
         }
-        intro="Trulance brings together designers, software engineers, data analysts, technical writers and digital marketers who freelance, and connects them with businesses that need dependable talent."
+        intro="Trulance delivers tech and IT projects for businesses, powered by a vetted community of freelance designers, software engineers, data analysts, technical writers and digital marketers."
       />
 
       <section className="bg-white py-20 sm:py-28">
@@ -36,12 +36,12 @@ export default function AboutPage() {
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-slate">
             <p>
-              Businesses need good tech talent, but finding someone reliable is slow and risky. Meanwhile, skilled freelancers
-              often work alone, chasing gigs with no one to learn from or vouch for them.
+              Businesses need tech projects done well, but finding a reliable freelancer and managing the work is slow and risky.
+              Meanwhile, skilled freelancers often work alone, chasing gigs with no one to learn from or vouch for them.
             </p>
             <p>
-              Trulance closes that gap. We build a vetted community of freelance techies, match them with businesses through
-              clear, fair ways of working, and support both sides until the work ships.
+              Trulance closes that gap. We build a vetted community of freelance techies, assign them to client projects, and
+              quality-check every deliverable before it goes back to the client.
             </p>
           </div>
         </Container>
@@ -51,11 +51,11 @@ export default function AboutPage() {
         <Container className="grid gap-6 md:grid-cols-2">
           <div className="rounded-3xl bg-ink p-8 text-white sm:p-12">
             <p className="font-mono text-sm uppercase tracking-wider text-signal">Mission</p>
-            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">To connect businesses with trusted freelance tech talent, and help every freelancer in our community do their best work.</p>
+            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">To deliver tech projects businesses can trust, and help every freelancer in our community do their best work.</p>
           </div>
           <div className="rounded-3xl bg-white p-8 sm:p-12">
             <Eyebrow>Vision</Eyebrow>
-            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">A world where great tech talent is found by reputation, not by luck, starting from Lagos.</p>
+            <p className="mt-5 text-2xl font-bold leading-snug sm:text-3xl">A world where any business can get great tech work done with confidence, starting from Lagos.</p>
           </div>
         </Container>
       </section>
